@@ -74,7 +74,7 @@ function Experiencias() {
         'Experiências',
         'Educação',
         'Minha Paixão',
-        'Sou professora a mais de 3 anos agora, mas nunca quis parar de aprender. Então agora, estou reacendendo uma antiga paixão criada no Ensino Médio: programação!',
+        'Sou professora há mais de 3 anos agora, mas nunca quis parar de aprender. Então agora, estou reacendendo uma antiga paixão criada no Ensino Médio: programação!',
         'E atualmente, após concluir o Bootcamp Desenvolvedorx Java com a Generation Brasil, estou pronta para novos desafios e para continuar aprendendo!',
         'Assistente de Loja',
         'Atendimento ao cliente, vendas online e presenciais, e organização e reparos do estoque da loja.',
