@@ -20,16 +20,16 @@ function Trabalhos() {
 
     return (
         <>
-            <Box my={15} mx={2} display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
+            <Box my={15} mx={10} display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
                 <Typography color='textPrimary' variant='h2' className='typography-cursorDefault'>{language == 'true' ? texts[0] : texts[3]}</Typography>
 
                 <Grid container spacing={2} mt={5}>
-                    <Grid item xs={2}>
-                        <Card elevation={5}>
+                    <Grid item xs={3}>
+                        <Card square elevation={5}>
                             <Link to='https://github.com/laiszz/AlgebraLinear' className='link-noDecoration' target="_blank">
                                 <CardActionArea>
                                     <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-                                        <Typography variant="h4" color='secondary'>
+                                        <Typography textAlign='center' variant="h4" color='secondary'>
                                             {language == 'true' ? texts[1] : texts[4]}
                                         </Typography>
                                     </CardContent>
@@ -42,12 +42,12 @@ function Trabalhos() {
                             </Link>
                         </Card>
                     </Grid>
-                    <Grid item xs={4}>
-                        <Card elevation={5}>
+                    <Grid item xs={3}>
+                        <Card square elevation={5}>
                             <Link to='https://github.com/projetoPetFood/petfood' className='link-noDecoration' target="_blank">
                                 <CardActionArea>
                                     <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-                                        <Typography variant="h4" color='secondary'>
+                                        <Typography textAlign='center' variant="h4" color='secondary'>
                                             PetFood
                                         </Typography>
                                     </CardContent>
@@ -60,12 +60,12 @@ function Trabalhos() {
                             </Link>
                         </Card>
                     </Grid>
-                    <Grid item xs={4}>
-                        <Card elevation={5}>
+                    <Grid item xs={3}>
+                        <Card square elevation={5}>
                             <Link to='https://github.com/ProjetoGecko' className='link-noDecoration' target="_blank">
                                 <CardActionArea>
                                     <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-                                        <Typography variant="h4" color='secondary'>
+                                        <Typography textAlign='center' variant="h4" color='secondary'>
                                             Gecko
                                         </Typography>
                                     </CardContent>
@@ -78,12 +78,12 @@ function Trabalhos() {
                             </Link>
                         </Card>
                     </Grid>
-                    <Grid item xs={2}>
-                        <Card elevation={5}>
+                    <Grid item xs={3}>
+                        <Card square elevation={5}>
                             <Link to='https://github.com/laiszz/VPython' className='link-noDecoration' target="_blank">
                                 <CardActionArea>
                                     <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-                                        <Typography variant="h4" color='secondary'>
+                                        <Typography textAlign='center' variant="h4" color='secondary'>
                                             {language == 'true' ? texts[2] : texts[5]}
                                         </Typography>
                                     </CardContent>

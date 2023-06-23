@@ -4,6 +4,7 @@ import Teacher from '../../images/teacher.png'
 import Programmer from '../../images/programmer.png'
 import MailIcon from '@mui/icons-material/Mail';
 import DescriptionIcon from '@mui/icons-material/Description';
+import Pdf from '../../assets/Currículo Laís.pdf'
 
 function Sobre() {
     const texts = [
@@ -34,14 +35,18 @@ function Sobre() {
                         <Typography className='typography-cursorDefault' mb={1}>{language == 'true' ? texts[2] : texts[3]}</Typography>
                         <Typography className='typography-cursorDefault'>{language == 'true' ? texts[4] : texts[5]}</Typography>
                         <Box mt={5} width='100%' display='flex' justifyContent='space-between'>
-                            <Button sx={{ width: '40%', height: '50px' }} variant='text' className='sobre-botoes'>
-                                <Typography mr={1}>{language == 'true' ? texts[6] : texts[7]}</Typography>
-                                <MailIcon />
-                            </Button>
-                            <Button sx={{ width: '40%', height: '50px' }} variant='text' className='sobre-botoes'>
-                                <Typography mr={1}>{language == 'true' ? texts[8] : texts[9]}</Typography>
-                                <DescriptionIcon />
-                            </Button>
+                            <a style={{ width: '40%' }} href='mailto:lais.salesms@gmail.com'>
+                                <Button sx={{ height: '50px' }} fullWidth variant='text' className='sobre-botoes'>
+                                    <Typography mr={1}>{language == 'true' ? texts[6] : texts[7]}</Typography>
+                                    <MailIcon />
+                                </Button>
+                            </a>
+                            <a style={{ width: '40%' }} href={Pdf} download='Currículo Laís Sales'>
+                                <Button sx={{ height: '50px' }} fullWidth variant='text' className='sobre-botoes'>
+                                    <Typography mr={1}>{language == 'true' ? texts[8] : texts[9]}</Typography>
+                                    <DescriptionIcon />
+                                </Button>
+                            </a>
                         </Box>
                     </Box>
                 </Box>
