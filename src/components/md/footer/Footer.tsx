@@ -14,17 +14,7 @@ function Footer() {
         <>
             <Box sx={{ height: '250px', backgroundColor: '#b3beff' }} display='flex' justifyContent='center' alignItems='center'>
                 <Grid container sx={{ height: '150px', width: '80%' }} component={Paper} elevation={9} display='flex' justifyContent='space-between' alignItems='center'>
-                    <Grid item xs={5} display='flex' justifyContent='space-evenly' alignItems='center'>
-                        <Box>
-                            <Box display='flex' alignItems='center' gap={1}>
-                                <HomeIcon />
-                                <Typography className='typography-cursorDefault'>Rua Barbosa Machado, 52</Typography>
-                            </Box>
-                            <Box display='flex' alignItems='center' gap={1}>
-                                <PublicIcon />
-                                <Typography className='typography-cursorDefault'>São Paulo, SP - Brasil</Typography>
-                            </Box>
-                        </Box>
+                    <Grid item xs={8} gap={2} display='flex' justifyContent='space-evenly' alignItems='center'>
                         <Box>
                             <Box display='flex' alignItems='center' gap={1}>
                                 <MailIcon />

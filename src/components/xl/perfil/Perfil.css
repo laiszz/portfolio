@@ -1,0 +1,10 @@
+.sobre {
+    height: 1000px;
+    margin-top: -150px;
+    background-image: url(../../../images/fundo_perfil1.png);
+    background-size: cover;
+}
+
+.perfil-botao:hover {
+    color: #f992ad;
+}

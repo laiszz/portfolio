@@ -108,13 +108,13 @@ function Experiencias() {
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-                <Grid container width='1600px' height='300px' display='flex' justifyContent='center' alignItems='center'>
-                    <Grid item xs={5} px={5} display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
+                <Grid container width='100%' height='300px' display='flex' justifyContent='center' alignItems='center'>
+                    <Grid item xs={5} pr={2} display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
                         <Typography mb={5} color='secondary' variant='h4' className='typography-cursorDefault'>{language == 'true' ? texts[3] : texts[21]}</Typography>
                         <Typography color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? (<>{texts[4]} <br /><br /> {texts[5]}</>) : (<>{texts[22]} <br /><br /> {texts[23]}</>)}</Typography>
                     </Grid>
                     <Divider orientation='vertical' flexItem />
-                    <Grid item xs={5} width='50%' px={5}>
+                    <Grid item xs={5} width='50%' pl={5}>
                         <Box my={2}>
                             <Typography className='typography-cursorDefault'>Java</Typography>
                             <LinearProgressWithLabel color='secondary' value={61} />
@@ -135,46 +135,46 @@ function Experiencias() {
                 </Grid>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <Grid container width='1600px' height='300px' display='flex' justifyContent='center' alignItems='center'>
-                    <Grid item mx={5} xs={3}>
+                <Grid container width='100%' height='300px' display='flex' justifyContent='center' alignItems='center'>
+                    <Grid item mr={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[6] : texts[24]}</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>PBKids Brinquedos</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2021 - 2021</Typography>
                         <Typography textAlign='justify' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[7] : texts[25]}</Typography>
                     </Grid>
                     <Divider orientation='vertical' flexItem />
-                    <Grid item mx={5} xs={3}>
+                    <Grid item mx={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[8] : texts[26]}</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>Escola Bilíngue Pueri Domus</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2012 - 2022</Typography>
                         <Typography textAlign='justify' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[9] : texts[27]}</Typography>
                     </Grid>
                     <Divider orientation='vertical' flexItem />
-                    <Grid item mx={5} xs={3}>
+                    <Grid item ml={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[10] : texts[28]}</Typography>
-                        <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>KOGNO Metodologia Particular de Ensino</Typography>
+                        <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>KOGNO</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2022 - Atualmente</Typography>
                         <Typography textAlign='justify' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[11] : texts[29]}</Typography>
                     </Grid>
                 </Grid>
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <Grid container width='1600px' height='300px' display='flex' justifyContent='center' alignItems='center'>
-                    <Grid item mx={5} xs={3}>
+                <Grid container width='100%' height='300px' display='flex' justifyContent='center' alignItems='center'>
+                    <Grid item mr={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[12] : texts[30]}</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>Colégio Joseense</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2013 - 2015</Typography>
                         <Typography textAlign='justify' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[13] : texts[31]}</Typography>
                     </Grid>
                     <Divider orientation='vertical' flexItem />
-                    <Grid item mx={5} xs={3}>
+                    <Grid item mx={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[14] : texts[32]}</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>Universidade de São Paulo</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2017 - Incompleto</Typography>
                         <Typography textAlign='justify' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[15] : texts[33]}</Typography>
                     </Grid>
                     <Divider orientation='vertical' flexItem />
-                    <Grid item mx={5} xs={3}>
+                    <Grid item ml={4} xs={3}>
                         <Typography gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[16] : texts[34]}</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>Generation Brasil</Typography>
                         <Typography gutterBottom color='textPrimary' className='typography-cursorDefault'>2023 - 2023</Typography>
