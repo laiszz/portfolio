@@ -17,27 +17,27 @@ function Footer() {
                     <Grid item xs={8} gap={2} display='flex' justifyContent='space-evenly' alignItems='center'>
                         <Box>
                             <Box display='flex' alignItems='center' gap={1}>
-                                <MailIcon />
+                                <MailIcon color='primary' />
                                 <Typography className='typography-cursorDefault'>lais.salesms@gmail.com</Typography>
                             </Box>
                             <Box display='flex' alignItems='center' gap={1}>
-                                <CallIcon />
+                                <CallIcon color='primary' />
                                 <Typography className='typography-cursorDefault'>+55 (12) 98282-4935</Typography>
                             </Box>
                         </Box>
                     </Grid>
                     <Grid item xs={4} display='flex' justifyContent='space-evenly' alignItems='center'>
                         <Link to='https://www.instagram.com/skyeles/' target='_blank' className='link-noDecoration'>
-                            <InstagramIcon fontSize='large' />
+                            <InstagramIcon color='primary' fontSize='large' />
                         </Link>
                         <Link to='https://twitter.com/SkyeL3s' target='_blank' className='link-noDecoration'>
-                            <TwitterIcon fontSize='large' />
+                            <TwitterIcon color='primary' fontSize='large' />
                         </Link>
                         <Link to='https://www.linkedin.com/in/lsalesxavier/' target='_blank' className='link-noDecoration'>
-                            <LinkedInIcon fontSize='large' />
+                            <LinkedInIcon color='primary' fontSize='large' />
                         </Link>
                         <Link to='https://github.com/laiszz' target='_blank' className='link-noDecoration'>
-                            <GitHubIcon fontSize='large' />
+                            <GitHubIcon color='primary' fontSize='large' />
                         </Link>
                     </Grid>
                 </Grid>

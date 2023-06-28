@@ -25,7 +25,7 @@ function Perfil() {
                         <Link to='#' className='link-noDecoration'>
                             <Box className='perfil-botao' display='flex' justifyContent='center' alignItems='center' gap={1}>
                                 <Typography variant='body1'>{language == 'true' ? texts[2] : texts[3]}</Typography>
-                                <PlayCircleOutlineIcon />
+                                <PlayCircleOutlineIcon color='primary' />
                             </Box>
                         </Link>
                     </Grid>
