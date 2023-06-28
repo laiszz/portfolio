@@ -101,7 +101,7 @@ function Experiencias() {
                 <Grid item pb={3} xs={12}>
                     <Typography textAlign='center' gutterBottom variant='h5' color='secondary' className='typography-cursorDefault'>{language == 'true' ? texts[8] : texts[26]}</Typography>
                     <Typography textAlign='center' gutterBottom color='textPrimary' className='typography-cursorDefault'>Escola Bilíngue Pueri Domus</Typography>
-                    <Typography textAlign='center' gutterBottom color='textPrimary' className='typography-cursorDefault'>2012 - 2022</Typography>
+                    <Typography textAlign='center' gutterBottom color='textPrimary' className='typography-cursorDefault'>2022 - 2022</Typography>
                     <Typography textAlign='center' color='textPrimary' className='typography-cursorDefault'>{language == 'true' ? texts[9] : texts[27]}</Typography>
                 </Grid>
                 <Grid item xs={12}>
