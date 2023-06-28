@@ -1,9 +1,9 @@
-import Navbar from "../components/navbar/Navbar"
-import Perfil from "../components/perfil/Perfil"
-import Sobre from "../components/sobre/Sobre"
-import Experiencias from "../components/experiencias/Experiencias"
-import Trabalhos from "../components/trabalhos/Trabalhos"
-import Footer from "../components/footer/Footer"
+import Navbar from "../components/lg/navbar/Navbar"
+import Perfil from "../components/lg/perfil/Perfil"
+import Sobre from "../components/lg/sobre/Sobre"
+import Experiencias from "../components/lg/experiencias/Experiencias"
+import Trabalhos from "../components/lg/trabalhos/Trabalhos"
+import Footer from "../components/lg/footer/Footer"
 
 function Home() {
     return (

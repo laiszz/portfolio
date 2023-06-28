@@ -1,10 +1,10 @@
 import useLocalStorage from "react-use-localstorage"
 import { Link } from "react-router-dom"
 import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from "@mui/material"
-import AlgebraLinear from '../../images/AlgebraLinear.jpg'
-import PetFood from '../../images/PetFood.png'
-import Gecko from '../../images/Gecko.png'
-import Simulacoes from '../../images/Simulacoes.jpg'
+import AlgebraLinear from '../../../images/AlgebraLinear.jpg'
+import PetFood from '../../../images/PetFood.png'
+import Gecko from '../../../images/Gecko.png'
+import Simulacoes from '../../../images/Simulacoes.jpg'
 
 function Trabalhos() {
     const texts = [

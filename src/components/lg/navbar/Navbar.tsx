@@ -1,8 +1,8 @@
 import useLocalStorage from "react-use-localstorage"
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material"
-import FotoLogo from '../../images/foto-icon.png'
-import AmericanFlag from '../../images/en-flag.png'
-import BrazilianFlag from '../../images/pt-flag.png'
+import FotoLogo from '../../../images/foto-icon.png'
+import AmericanFlag from '../../../images/en-flag.png'
+import BrazilianFlag from '../../../images/pt-flag.png'
 import './Navbar.css'
 
 function Navbar() {

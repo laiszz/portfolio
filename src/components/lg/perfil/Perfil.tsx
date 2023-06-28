@@ -2,7 +2,7 @@ import useLocalStorage from "react-use-localstorage"
 import { Box, Button, Grid, Paper, Typography } from "@mui/material"
 import { Link } from "react-router-dom"
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline'
-import FotoPerfil from '../../images/foto-perfil.png'
+import FotoPerfil from '../../../images/foto-perfil.png'
 import './Perfil.css'
 
 function Perfil() {

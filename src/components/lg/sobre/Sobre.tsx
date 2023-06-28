@@ -1,10 +1,10 @@
 import useLocalStorage from "react-use-localstorage"
 import { Box, Button, Paper, Typography } from "@mui/material"
-import Teacher from '../../images/teacher.png'
-import Programmer from '../../images/programmer.png'
+import Teacher from '../../../images/teacher.png'
+import Programmer from '../../../images/programmer.png'
 import MailIcon from '@mui/icons-material/Mail';
 import DescriptionIcon from '@mui/icons-material/Description';
-import Pdf from '../../assets/Currículo Laís.pdf'
+import Pdf from '../../../assets/Currículo Laís.pdf'
 
 function Sobre() {
     const texts = [
